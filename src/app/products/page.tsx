@@ -1,5 +1,6 @@
-export default function products(){
-    return <>
+export default function ProductList(){
+    return (
+        <>
     <h1>Product Lists</h1>
     <ul>
         <li>Product 1</li>
@@ -7,4 +8,5 @@ export default function products(){
         <li>Product 3</li>
     </ul>
     </>
+    )
 }
